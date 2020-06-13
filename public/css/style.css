@@ -1,0 +1,187 @@
+/* Space out content a bit */
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+.header,
+.marketing,
+.footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+/* Custom page header */
+
+.header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+/* Make the masthead heading the same height as the navigation */
+
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+
+/* Custom page footer */
+
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+
+/* Customize container */
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
+.container-narrow>hr {
+    margin: 30px 0;
+}
+
+
+/* Main marketing message and sign up button */
+
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 21px;
+}
+
+
+/* Supporting marketing content */
+
+.marketing {
+    margin: 40px 0;
+}
+
+.marketing p+h4 {
+    margin-top: 28px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+.page-header {
+    margin-top: 0;
+}
+
+
+/* for login */
+
+.content {
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.align {
+    margin-left: 20% !important;
+    padding-top: 1%
+}
+
+legend {
+    width: 25%;
+    padding: 1%;
+    margin: 0 auto;
+    color: #777
+}
+
+.mybtn {
+    background: white;
+    border-radius: 0px !important;
+    padding: 0 0 0 40px;
+    text-align: left;
+    position: relative;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border-color: #c8c8c8;
+    width: 130px;
+    height: 35px;
+    text-shadow: none;
+    text-transform: none;
+}
+
+.icon {
+    padding: 5px;
+    padding-top: 0px;
+    left: 0;
+    position: absolute;
+    top: -1px;
+    width: 30px;
+    bottom: -1px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+}
+
+.face {
+    background: #3B5998;
+    color: fff;
+}
+
+.goog {
+    background: #DD4B39;
+    color: fff;
+}
+
+.twit {
+    background: #00BCF2;
+    color: fff;
+}
+
+.fa {
+    color: #fff;
+    font-size: 110%;
+}
+
+h4 {
+    color: #fff !important;
+}
+
+.submit {
+    color: white !important;
+    margin-bottom: 3%;
+}
+
+footer {
+    margin-top: 5%
+}

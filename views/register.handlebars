@@ -1,0 +1,66 @@
+
+    <div class="content">
+
+        <div class="row">
+            <legend class="text-center">Signup with</legend>
+            <div class="col-md-8 align col-md-offset-3">
+
+               <a href="/users/facebook" class="btn mybtn ">
+                    <div class="icon face"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                    <span>Facebook</span>
+                </a>
+                <a href="/users/google" class="btn mybtn ">
+                     <div class="icon goog"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+                    <span>Google</span>
+                 </a>
+                <a href="/users/twitter" class="btn mybtn ">
+                    <div class="icon twit"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                    <span>Twitter</span>
+                </a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="container">
+            <div class="col-md-8 ">
+                <legend class="text-center">Or Create New</legend>
+                {{#if errors}}
+                    {{#each errors}}
+                        <div class="alert alert-danger">{{msg}}</div>
+                    {{/each}}
+                {{/if}}
+                <form method="post" action="/users/register" >
+
+
+                    <div class="form-group">
+                        <label >Name</label>
+                        <input type="text" name="name"   class="form-control" placeholder="Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label > Username</label>
+                        <input type="text" name="username"   class="form-control" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                            <label>Email</label>
+                            <input type="text" name="email"   class="form-control" placeholder="Email">
+                        </div>
+                    <div class="form-group">
+                        <label >Password</label>
+                        <input type="password" name="pwd"   class="form-control" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label >Confirm Password</label>
+                        <input type="password" name="pwd2"   class="form-control" placeholder="Password">
+                    </div>
+                   
+                    <button type="submit" class="btn submit btn-large btn-block btn-primary"><h4>Create your account</h4></button>
+                </form>
+               
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
